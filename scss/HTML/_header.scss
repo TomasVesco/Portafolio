@@ -1,0 +1,25 @@
+header 
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    background-color: nth($colores, 1);
+    >div 
+    {
+        display: flex;
+        justify-content: center;
+        >div 
+        {
+            >div 
+            {
+                >a 
+                {
+                    text-decoration: none;
+                    color: nth($colores, 5);
+                    font-size: nth($tamaño-texto, 1);
+                }
+            }
+        }
+    }
+}

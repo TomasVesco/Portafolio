@@ -1,0 +1,48 @@
+.seccion-uno 
+{
+    font-size: nth($tamaño-texto, 4);
+    background-color: nth($colores, 2);
+    >div
+    {
+        display: flex;
+        justify-content: center;
+        >div 
+        {
+            >div:nth-child(1)
+            {
+                width: 400px;
+                >img 
+                {
+                    width: 355px;
+                    border: 4px solid nth($colores, 4);
+                    border-radius: 10px;
+                }
+            }
+            >div:nth-child(2)
+            {
+                width: 400px;
+                >div:nth-child(1)
+                {
+                    padding-bottom: 20px;
+                    display: flex;
+                    p
+                    {
+                        padding-right: 6px;
+                        color: nth($colores, 5);
+                    }
+                    h1 
+                    {
+                        text-decoration: none;
+                        font-size: nth($tamaño-texto, 4);
+                        color: nth($colores, 4);
+                    }
+                }
+                >div:nth-child(2)
+                {
+                    color: nth($colores, 5);
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}

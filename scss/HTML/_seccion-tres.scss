@@ -1,0 +1,46 @@
+.seccion-tres 
+{
+    background-color: nth($colores, 2);
+    >div
+    {
+        display: flex;
+        justify-content: center;
+        >div 
+        {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            >div:nth-child(1)
+            {
+                padding-bottom: nth($padeo, 1);
+                h2 
+                {
+                    font-size: nth($tamaño-texto, 2);
+                    color: nth($colores, 5);
+                }
+            }
+            >div:nth-child(2)
+            {
+                @extend %cajas;
+                color: nth($colores, 5);
+                line-height: 25px;
+                >div:nth-child(1)
+                {
+                    padding-bottom: nth($padeo, 1);
+                    >p 
+                    {
+                        text-align: center;
+                        font-size: nth($tamaño-texto, 3);
+                    }
+                }
+                >div:nth-child(2)
+                {
+                    >p 
+                    {
+                        font-size: nth($tamaño-texto, 4);
+                    }
+                }
+            }
+        }
+    }
+}

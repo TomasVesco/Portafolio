@@ -1,0 +1,16 @@
+.contacto 
+{
+    background-color: nth($colores, 2);
+    font-size: nth($tamaño-texto, 1);
+    color: nth($colores, 5);
+    >div 
+    {
+        display: flex;
+        justify-content: center;
+        >div 
+        {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

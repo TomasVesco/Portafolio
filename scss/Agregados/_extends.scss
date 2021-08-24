@@ -1,0 +1,12 @@
+%cajas
+{
+    width: 375px;
+    background-color: nth($colores, 3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    padding: 25px 25px 25px 25px;
+    &:hover
+    {
+        transform: translate(0, -10px);
+        transition: all, 0.8s;
+    }
+}

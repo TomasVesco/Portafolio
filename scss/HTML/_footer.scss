@@ -1,0 +1,36 @@
+.footer 
+{
+    background-color: nth($colores, 1);
+    color: nth($colores, 6);
+    >div 
+    {
+        display: flex;
+        justify-content: center;
+        >div 
+        {
+            display: flex;
+            flex-direction: column;
+            >div:nth-child(1)
+            {
+                >p 
+                {
+                    font-size: nth($tamaño-texto, 2);
+                    text-align: center;
+                }
+            }
+            >div:nth-child(2)
+            {
+                display: flex;
+                justify-content: center;
+                
+                a 
+                {
+                    img 
+                    {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
