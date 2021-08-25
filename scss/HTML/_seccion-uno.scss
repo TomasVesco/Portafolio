@@ -5,7 +5,7 @@
     {
         font-size: nth($tamaño-texto, 4);
     }
-    @media only screen and (min-width: 440px) and (max-width: 840px)
+    @media only screen and (min-width: 0px) and (max-width: 840px)
     {
         font-size: nth($tamaño-texto, 5);
     }
@@ -27,9 +27,13 @@
                     width: 355px;
                     border: 4px solid nth($colores, 4);
                     border-radius: 10px;
-                    @media only screen and (min-width: 0px) and (max-width: 840px) 
+                    @media only screen and (min-width: 440px) and (max-width: 840px) 
                     {
                         width: 392px;
+                    }
+                    @media only screen and (min-width: 0px) and (max-width: 439px) 
+                    {
+                        width: 192px;
                     }
                 }
             }
@@ -53,7 +57,7 @@
                         {
                             font-size: nth($tamaño-texto, 4);
                         }
-                        @media only screen and (min-width: 440px) and (max-width: 840px)
+                        @media only screen and (min-width: 0px) and (max-width: 840px)
                         {
                             font-size: nth($tamaño-texto, 5);
                         }

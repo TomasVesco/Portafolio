@@ -1,9 +1,16 @@
 %cajas
 {
-    width: 350px;
     background-color: nth($colores, 3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     padding: 25px 25px 25px 25px;
+    @media only screen and (min-width: 440px)
+    {
+        width: 350px;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 439px)
+    {
+        width: 150px;
+    }
     &:hover
     {
         transform: translate(0, -10px);

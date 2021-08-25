@@ -20,7 +20,7 @@
                     {
                         font-size: nth($tamaño-texto, 2);
                     }
-                    @media only screen and (min-width: 440px) and (max-width: 840px)
+                    @media only screen and (min-width: 0px) and (max-width: 840px)
                     {
                         font-size: nth($tamaño-texto, 3);
                     }
@@ -34,14 +34,14 @@
                 >div:nth-child(1)
                 {
                     padding-bottom: nth($padeo, 1);
-                    >p
+                    >p 
                     {
                         text-align: center;
                         @media only screen and (min-width: 841px)
                         {
                             font-size: nth($tamaño-texto, 3);
                         }
-                        @media only screen and (min-width: 440px) and (max-width: 840px)
+                        @media only screen and (min-width: 0px) and (max-width: 840px)
                         {
                             font-size: nth($tamaño-texto, 4);
                         }
@@ -55,7 +55,7 @@
                         {
                             font-size: nth($tamaño-texto, 4);
                         }
-                        @media only screen and (min-width: 440px) and (max-width: 840px)
+                        @media only screen and (min-width: 0px) and (max-width: 840px)
                         {
                             font-size: nth($tamaño-texto, 5);
                         }
