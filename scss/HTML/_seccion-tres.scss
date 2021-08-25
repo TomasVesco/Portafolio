@@ -15,8 +15,15 @@
                 padding-bottom: nth($padeo, 1);
                 h2 
                 {
-                    font-size: nth($tamaño-texto, 2);
                     color: nth($colores, 5);
+                    @media only screen and (min-width: 841px)
+                    {
+                        font-size: nth($tamaño-texto, 2);
+                    }
+                    @media only screen and (min-width: 440px) and (max-width: 840px)
+                    {
+                        font-size: nth($tamaño-texto, 3);
+                    }
                 }
             }
             >div:nth-child(2)
@@ -27,17 +34,31 @@
                 >div:nth-child(1)
                 {
                     padding-bottom: nth($padeo, 1);
-                    >p 
+                    >p
                     {
                         text-align: center;
-                        font-size: nth($tamaño-texto, 3);
+                        @media only screen and (min-width: 841px)
+                        {
+                            font-size: nth($tamaño-texto, 3);
+                        }
+                        @media only screen and (min-width: 440px) and (max-width: 840px)
+                        {
+                            font-size: nth($tamaño-texto, 4);
+                        }
                     }
                 }
                 >div:nth-child(2)
                 {
                     >p 
                     {
-                        font-size: nth($tamaño-texto, 4);
+                        @media only screen and (min-width: 841px)
+                        {
+                            font-size: nth($tamaño-texto, 4);
+                        }
+                        @media only screen and (min-width: 440px) and (max-width: 840px)
+                        {
+                            font-size: nth($tamaño-texto, 5);
+                        }
                     }
                 }
             }

@@ -61,8 +61,22 @@ html
 
 .item-container
 {
-    display: flex;
-    justify-content: space-between;
-    width: nth($tamaño-seccion, 1);
+    @media only screen and (min-width: 841px)
+    {
+        width: nth($tamaño-seccion, 1);
+        display: flex;
+        justify-content: space-around;
+    }
+    @media only screen and (min-width: 440px) and (max-width: 840px) 
+    {
+        width: nth($tamaño-seccion, 2);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 439px) 
+    {
+        width: nth($tamaño-seccion, 2);        
+    }
 }
 /* Fin modificaciones globales */
