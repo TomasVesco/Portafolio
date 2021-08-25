@@ -1,20 +1,8 @@
 {
   "name": "4-cuarta-entrega",
-  "short-name": "4-entrega",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "start_url": "/index.html",
-  "theme_color": "#317EFB",
-  "icons": [
-    {
-      "src": "path/to/maskable_icon.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
-  ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
