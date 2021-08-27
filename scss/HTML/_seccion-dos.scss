@@ -34,6 +34,28 @@
                 >div:nth-child(1)
                 {
                     padding-bottom: nth($padeo, 1);
+                    >div:nth-child(1)
+                    {
+                        display: flex;
+                        justify-content: center;
+                        padding-bottom: nth($padeo, 1);
+                        >img
+                        {
+                            content: url(../images/html.svg);
+                            border: 1px solid nth($colores, 1);
+                            border-radius: 50%;
+                            width: 24px;
+                            height: 24px;
+                            padding: 5px;
+                            transition: 1s;
+                            &:hover 
+                            {
+                                content: url(../images/html1.svg);
+                                background-color: nth($colores, 1);
+                                transition: 1s;
+                            }
+                        }
+                    }
                     >h3 
                     {
                         text-align: center;
