@@ -345,7 +345,7 @@ header > div > div > div > a {
 }
 
 html {
-  background: url(../images/fondo.svg) no-repeat center center fixed;
+  background: url(../images/fondo.png) no-repeat center center fixed;
   background-size: cover;
 }
 html body {
