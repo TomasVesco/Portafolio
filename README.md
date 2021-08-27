@@ -5,7 +5,11 @@
 
 - 🔭 I’m currently working on [Portfolio](https://tomasvesco.github.io/Portafolio/)
 
+<<<<<<< HEAD
 - 🌱 I’m currently learning **HTML5, CSS, SASS**
+=======
+- 🌱 I’m currently learning **HTML5, CSS3, SASS, SEO**
+>>>>>>> 7e742a6f15a5a53bfa3b6ceed4d8c6e23ea87da2
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
