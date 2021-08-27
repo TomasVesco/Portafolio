@@ -38,10 +38,10 @@
                     {
                         display: flex;
                         justify-content: center;
-                        padding-bottom: nth($padeo,);
-                        >img
+                        padding-bottom: nth($padeo, 1);
+                        >div
                         {
-                            content: url(../images/html.svg);
+                            background: url(../images/html.svg) no-repeat center center;
                             border: 1px solid nth($colores, 1);
                             border-radius: 50%;
                             width: 24px;
@@ -50,7 +50,7 @@
                             transition: 1s;
                             &:hover 
                             {
-                                content: url(../images/html1.svg);
+                                background: url(../images/html1.svg) no-repeat center center;
                                 background-color: nth($colores, 1);
                                 transition: 1s;
                             }
