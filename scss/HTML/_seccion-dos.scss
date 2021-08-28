@@ -41,19 +41,8 @@
                         padding-bottom: nth($padeo, 1);
                         >div
                         {
-                            background: url(../images/html.svg) no-repeat center center;
-                            border: 1px solid nth($colores, 1);
-                            border-radius: 50%;
                             width: 24px;
                             height: 24px;
-                            padding: 5px;
-                            transition: 1s;
-                            &:hover 
-                            {
-                                background: url(../images/html1.svg) no-repeat center center;
-                                background-color: nth($colores, 1);
-                                transition: 1s;
-                            }
                         }
                     }
                     >h3 
