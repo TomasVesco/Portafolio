@@ -41,8 +41,18 @@
                         padding-bottom: nth($padeo, 1);
                         >div
                         {
+                            display: flex;
+                            justify-content: center;
                             width: 24px;
                             height: 24px;
+                            padding: 8px;
+                            border: 1px solid nth($colores, 1);
+                            border-radius: 50%;
+                            &:hover 
+                            {
+                                background-color: nth($colores, 1);
+                                transition: 1s;
+                            }
                         }
                     }
                     >h3 
