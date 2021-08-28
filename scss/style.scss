@@ -85,12 +85,15 @@ html
 
 .ri-edit-box-line
 {
+    padding: 10px;
     font-size: 24px;
     color: nth($colores, 4);
+    border: 1px solid nth($colores, 1);
     border-radius: 50%;
     transition: 1s;
     &:hover 
     {
+        background-color: nth($colores, 1);
         color: nth($colores, 5);
         transition: 1s;
     }
