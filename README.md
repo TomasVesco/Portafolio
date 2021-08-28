@@ -5,7 +5,6 @@
 
 - 🔭 I’m currently working on [Portfolio](https://tomasvesco.github.io/Portafolio/)
 
-- 🌱 I’m currently learning **HTML5, CSS, SASS**
 
 - 🌱 I’m currently learning **HTML5, CSS3, SASS, SEO**
 
