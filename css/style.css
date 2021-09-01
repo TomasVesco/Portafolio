@@ -276,6 +276,18 @@ header > div > div > div > a {
     font-size: 16px;
   }
 }
+.contacto > div > form > div:nth-child(2) {
+  padding-top: 20px;
+}
+.contacto > div > form > div:nth-child(3) {
+  padding-top: 20px;
+}
+.contacto > div > form > div:nth-child(3) div:nth-child(2) {
+  padding-top: 5px;
+}
+.contacto > div > form > div:nth-child(4) {
+  padding-top: 15px;
+}
 .contacto > div > form > div {
   display: flex;
   flex-direction: column;
@@ -290,9 +302,6 @@ header > div > div > div > a {
   .contacto > div > form > div > div:nth-child(2) > input, .contacto > div > form > div > div:nth-child(2) textarea {
     width: 200px;
   }
-}
-.contacto > div > form > div:nth-child(2), .contacto > div > form > div:nth-child(3), .contacto > div > form > div:nth-child(4) {
-  padding-top: 20px;
 }
 
 /* Fin contacto */
