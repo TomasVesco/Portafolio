@@ -31,7 +31,6 @@
                 @extend %cajas;
                 color: nth($colores, 5);
                 line-height: 25px;
-                transition: all, 0.8s;
                 >div:nth-child(1)
                 {
                     padding-bottom: nth($padeo, 1);
