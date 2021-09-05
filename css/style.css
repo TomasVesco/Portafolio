@@ -5,6 +5,7 @@
   background-color: #2C394B;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   padding: 25px 25px 25px 25px;
+  transition: all, 0.8s;
 }
 @media only screen and (min-width: 440px) {
   .seccion-tres > div > div > div:nth-child(2), .seccion-dos > div > div > div:nth-child(2) {
@@ -18,7 +19,6 @@
 }
 .seccion-tres > div > div > div:hover:nth-child(2), .seccion-dos > div > div > div:hover:nth-child(2) {
   transform: translate(0, -10px);
-  transition: all, 0.8s;
 }
 
 /* Fin extends */
@@ -159,6 +159,7 @@ header > div > div > div > a {
 .seccion-dos > div > div > div:nth-child(2) {
   color: white;
   line-height: 25px;
+  transition: all, 0.8s;
 }
 .seccion-dos > div > div > div:nth-child(2) > div:nth-child(1) {
   padding-bottom: 20px;
