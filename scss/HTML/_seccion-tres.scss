@@ -51,6 +51,7 @@
                 {
                     >p 
                     {
+                        text-align: center;
                         @media only screen and (min-width: 841px)
                         {
                             font-size: nth($tamaño-texto, 4);

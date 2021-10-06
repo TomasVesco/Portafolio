@@ -181,6 +181,9 @@ header > div > div > div > a {
     font-size: 14px;
   }
 }
+.seccion-dos > div > div > div:nth-child(2) > div:nth-child(2) > p {
+  text-align: center;
+}
 @media only screen and (min-width: 841px) {
   .seccion-dos > div > div > div:nth-child(2) > div:nth-child(2) > p {
     font-size: 14px;
@@ -241,6 +244,9 @@ header > div > div > div > a {
   .seccion-tres > div > div > div:nth-child(2) > div:nth-child(1) > p {
     font-size: 14px;
   }
+}
+.seccion-tres > div > div > div:nth-child(2) > div:nth-child(2) > p {
+  text-align: center;
 }
 @media only screen and (min-width: 841px) {
   .seccion-tres > div > div > div:nth-child(2) > div:nth-child(2) > p {
