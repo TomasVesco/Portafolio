@@ -20,15 +20,21 @@
             }
             >div:nth-child(2)
             {
-                display: flex;
-                justify-content: center;
-                
-                a 
+                >div:nth-child(1)
                 {
-                    img 
+                    display: flex;
+                    justify-content: center;          
+                    a 
                     {
-                        width: 60px;
+                        img 
+                        {
+                            width: 60px;
+                        }
                     }
+                }
+                >div:nth-child(2)
+                {
+                    text-align: center;
                 }
             }
         }

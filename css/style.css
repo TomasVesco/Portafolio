@@ -254,57 +254,6 @@ header > div > div > div > a {
 }
 
 /* Fin seccion-tres */
-/* Inicio contacto */
-.contacto {
-  background-color: #082032;
-  color: white;
-}
-.contacto > div {
-  display: flex;
-  justify-content: center;
-}
-.contacto > div > form {
-  width: 400px;
-}
-@media only screen and (min-width: 841px) {
-  .contacto > div > form {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 840px) {
-  .contacto > div > form {
-    font-size: 16px;
-  }
-}
-.contacto > div > form > div:nth-child(2) {
-  padding-top: 20px;
-}
-.contacto > div > form > div:nth-child(3) {
-  padding-top: 20px;
-}
-.contacto > div > form > div:nth-child(3) div:nth-child(2) {
-  padding-top: 5px;
-}
-.contacto > div > form > div:nth-child(4) {
-  padding-top: 15px;
-}
-.contacto > div > form > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media only screen and (min-width: 440px) {
-  .contacto > div > form > div > div:nth-child(2) > input, .contacto > div > form > div > div:nth-child(2) textarea {
-    width: 400px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 439px) {
-  .contacto > div > form > div > div:nth-child(2) > input, .contacto > div > form > div > div:nth-child(2) textarea {
-    width: 200px;
-  }
-}
-
-/* Fin contacto */
 /* Inicio footer */
 .footer {
   background-color: #FF4C29;
@@ -322,12 +271,15 @@ header > div > div > div > a {
   font-size: 20px;
   text-align: center;
 }
-.footer > div > div > div:nth-child(2) {
+.footer > div > div > div:nth-child(2) > div:nth-child(1) {
   display: flex;
   justify-content: center;
 }
-.footer > div > div > div:nth-child(2) a img {
+.footer > div > div > div:nth-child(2) > div:nth-child(1) a img {
   width: 60px;
+}
+.footer > div > div > div:nth-child(2) > div:nth-child(2) {
+  text-align: center;
 }
 
 /* Fin footer*/
