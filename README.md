@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tomás Vesco</h1>
-<h3 align="center">A passionate frontend developer from Arentina</h3>
+<h3 align="center">A passionate frontend developer from Argentina</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tomasvesco&label=Profile%20views&color=0e75b6&style=flat" alt="tomasvesco" /> </p>
 
