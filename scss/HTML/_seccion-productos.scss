@@ -1,0 +1,22 @@
+.productos{
+    @extend %default;
+    flex-wrap: wrap;
+    background-color: white;
+    >div
+    {
+        @extend %cards;
+        
+        background-color: nth($ecommerce-colores, 2);
+    }
+}
+
+.agregar-carrito
+{
+    text-decoration: underline;
+    color: nth($ecommerce-colores, 4);
+}
+
+.card
+{
+    @extend %box;
+}

@@ -26,6 +26,26 @@
 @import 'HTML/footer';
 /* Fin footer*/
 
+/* Inicio header */
+@import 'HTML/ecommerce-header';
+/* Fin header */
+
+/* Inicio buscador */
+@import 'HTML/buscador';
+/* Fin buscador */
+
+/* Inicio seccion-productos */
+@import 'HTML/seccion-productos';
+/* Fin seccion-productos */
+
+/* Inicio carrito */
+@import 'HTML/carrito';
+/* Fin carrito */
+
+/* Inicio footer */
+@import 'HTML/ecommerce-footer';
+/* Fin footer */
+
 /* Modificaciones globales */
 * 
 {
@@ -39,9 +59,13 @@ html
 {
     background: url(../images/fondo.png) no-repeat center center fixed; 
     background-size: cover;
+    min-height: 100%;
+    position: relative;
     body 
     {
         background-color: rgba(0, 0, 0, 0.75);
+        margin: 0;
+        margin-bottom: 130px;
     }
 }
 

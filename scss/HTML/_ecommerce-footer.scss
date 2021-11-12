@@ -1,0 +1,14 @@
+footer 
+{
+    position: absolute;
+    bottom: 0;
+    @extend %default;
+    background-color: nth($ecommerce-colores, 4);
+    >div
+    {
+        >p 
+        {
+            color: white;
+        }
+    }
+}

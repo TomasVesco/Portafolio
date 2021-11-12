@@ -34,6 +34,16 @@
             {
                 margin-top: nth($padeo, 1);
                 @extend %card;
+                >div:nth-child(2){
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    >a{
+                        padding-top: 20px;
+                        color: white;
+                        text-align: center;
+                    }
+                }
             }
         }
     }

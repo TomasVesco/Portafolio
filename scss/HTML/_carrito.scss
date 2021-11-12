@@ -1,0 +1,102 @@
+header 
+{
+    >div:nth-child(1)
+    {
+        >p
+        {
+            color: black;
+        }
+    }
+    >div:nth-child(2)
+    {
+        text-align: center;
+    }
+}
+
+.sub-menu
+{
+    position: absolute;
+    z-index: 1;
+    >ul
+    {
+        background-color: white;
+        >li 
+        {
+            >i 
+            {
+                padding-bottom: 25px;
+            }
+            list-style: none;
+            >ul
+            {
+                border: steelblue 1px solid;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+                display: none;
+            }
+        }
+        >li:hover >ul
+        {
+            display: block;
+        }
+    }
+}
+
+.carrito
+{
+    @extend %default;
+    flex-direction: column;
+    >div
+    {
+        background-color: white;
+        margin-top: 50px;
+        text-align: center;
+        >p 
+        {
+            margin-left: 40px;
+            margin-right: 40px;
+            color: black;
+        }
+    }
+    >div:nth-child(3)
+    {
+        display: flex;
+        justify-content: center;
+        >a 
+        {
+            text-decoration: underline;
+            color: black;
+        }
+    }
+    >table
+    {
+        border-spacing: 0px;
+        >tbody
+        {
+            background-color: nth($ecommerce-colores, 2);
+            >tr:nth-child(1)
+            {
+                margin-top: 50px;
+            }
+            >tr:last-of-type
+            {
+                margin-bottom: 50px;
+            }
+            >tr 
+            {
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                >td 
+                {
+                    width: 100px;
+                    margin-left: 30px;
+                    margin-right: 30px;
+                    >img 
+                    {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
