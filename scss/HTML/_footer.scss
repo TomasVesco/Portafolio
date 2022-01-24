@@ -2,40 +2,36 @@
 {
     background-color: nth($colores, 1);
     color: nth($colores, 6);
-    >div 
+
+    .footer-container
     {
         display: flex;
-        justify-content: center;
-        >div 
+        flex-direction: column;
+        >div:nth-child(1)
         {
-            display: flex;
-            flex-direction: column;
+            >p 
+            {
+                font-size: nth($tamaño-texto, 2);
+                text-align: center;
+            }
+        }
+        >div:nth-child(2)
+        {
             >div:nth-child(1)
             {
-                >p 
+                display: flex;
+                justify-content: center;          
+                a 
                 {
-                    font-size: nth($tamaño-texto, 2);
-                    text-align: center;
+                    img 
+                    {
+                        width: 60px;
+                    }
                 }
             }
             >div:nth-child(2)
             {
-                >div:nth-child(1)
-                {
-                    display: flex;
-                    justify-content: center;          
-                    a 
-                    {
-                        img 
-                        {
-                            width: 60px;
-                        }
-                    }
-                }
-                >div:nth-child(2)
-                {
-                    text-align: center;
-                }
+                text-align: center;
             }
         }
     }
